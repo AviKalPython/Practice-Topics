@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    background-color: hsl(185, 75%, 39%)
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-box {
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.bubbles img {
+    border-radius: 15px 15px 0 0;
+}
+
+.image-of-person {
+    background: #fff;
+}
+
+.image-of-person img {
+    vertical-align: middle;
+    margin-top: -15%;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.background {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.name h1 {
+    padding:5px;
+    margin: 3px;
+}
+
+.age h3{
+    padding:5px;
+    margin: 5px;
+    color: #828282;
+    position: relative;
+    top: 7px;
+}
+
+.location {
+    margin: 5px;
+    color: #828282;
+}
+
+.stats {
+    position: relative;
+    border-top: 1px solid #E0E0E0;
+    top: 40px;
+}
+
+.numbers {
+    padding: 20px 10px 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.left-top {
+    position: absolute;
+    right: 50vw;
+    bottom: 50vh;
+    z-index: -1;
+}
+
+.bottom-right {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    z-index: -1;
+}
