@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stick', sans-serif;
+    background-color: #F3F3F3;
+}
+
+.header-main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-bottom: 20px;
+    background-color: #C9D6DF;
+    color: #2B353D;
+
+}
+
+.logo,
+.social-links {
+    flex: 1;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navbar {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.navbar-items {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.main-container {
+    display: flex;
+    margin: 40px 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sidebar-main {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    border: 1px solid black;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.main-con {
+    display: flex;
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.dummy-content {
+    width: 900px;
+    font-family: 'Playfair Display', serif;
+}
+
+.photo-grid-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#C2D3FE;
+    margin: 30px 0 0 0;
+    padding: 10px 30px;
+    height: 10vh;
+    font-family: 'Akaya Telivigala', cursive;
+}
